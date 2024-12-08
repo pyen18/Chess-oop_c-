@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Board">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAAAACAAQAAAAFAEIAAAAAAAIASAAAABACAAAAA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAiAAAAABIEAAAAAAAhIgAgAAAAAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Piece" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAAAAAAACEALAAKACCAQABAACIAQAAsIgICgA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="King">
+    <Position X="1" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAgAADEASAAAAAAAAAAAAAAAQACEAAAAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Queen">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAACEACAAAAAAAAAAAAAAAQAAEAAgAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bishop">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEACAAAAQAAAAAAAAgAQAAEAAAAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rook">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAACEAGAAAAEAACAAAAAAAQAAEAAAAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Knight">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAACEACAAAAAAAAAAAAAAASAAEAAAAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pawn">
+    <Position X="12.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAiCAAAAAAAAgAiEACAAAAAAACAAAAAAAQAAEAACAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Computer">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAIARAAAAgAAAAAAgA=</HashCode>
+      <FileName>Computer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coordinate">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAGAQAAAAAAAAAAAABgAGAAAAA=</HashCode>
+      <FileName>Coordinate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="12.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgAgEAAACAEJAAIGBAAFAEAAAACAEJABAIABUIgA=</HashCode>
+      <FileName>GameManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI">
+    <Position X="6.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAQFIgBBAAAAEAAAAAIAAQIAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuGUI">
+    <Position X="7.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgAAAAIAAAAACKAAAEAAAHAAoKEABAAAAAgYAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GamePlayGUI">
+    <Position X="9.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QxAAAAAAAAAEAQACAAQABEAAAACEQAEwIAAiAIgRAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchResultGUI">
+    <Position X="3.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABAAAAACAABAAAIEAAAQAAAAEAIAAAAAIQAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PromotionGUI">
+    <Position X="1" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAIAAAAEEEAAAABEAEABAAgAgQQAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingGUI">
+    <Position X="5.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQAAACAACAAAIEAAAEAAwCEAIAACAAIQAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="History">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FEAwAAAAAAAAAEAAACBABAABEAAAEAAAAQAGAECAAgA=</HashCode>
+      <FileName>History.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAgAAAAAAAIAAAAAAAAgAA=</HashCode>
+      <FileName>Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager">
+    <Position X="25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEIAIBhAQAIAEQggAQGEIACMECgAAAAEAACAAYBA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Color">
+    <Position X="20" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PieceType">
+    <Position X="18" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEggAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Path">
+    <Position X="15.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAwIAAAAAAAAAAAAAEACBAACAhABAAAgA=</HashCode>
+      <FileName>Pieces.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mode">
+    <Position X="18" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MatchResult">
+    <Position X="15.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAE=</HashCode>
+      <FileName>GameManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Opponent">
+    <Position X="20" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>History.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GamePlayGUIState">
+    <Position X="20" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GUIType">
+    <Position X="18" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIIAAAAAAAAAAAAAAAAgAAAEAAAAAQAAAAAAAAgA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MatchState">
+    <Position X="15.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAABAAAAAAAAQAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
